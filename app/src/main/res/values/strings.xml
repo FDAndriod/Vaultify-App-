@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vaultify</string>
+    <string name="splash_tagline">Where Your Secrets Stay Safe.</string>
+
+    <!-- Launcher aliases (disguise icons use the same short names on purpose) -->
+    <string name="launcher_label_vaultify">Vaultify</string>
+    <string name="launcher_label_weather">Weather</string>
+    <string name="launcher_label_converter">Converter</string>
+    <string name="launcher_label_music">Music</string>
+    <string name="launcher_label_calendar">Calendar</string>
+    <string name="launcher_label_mealio">Mealio</string>
+    <string name="launcher_label_calculator">Calculator</string>
+    <string name="launcher_label_notes">Notes</string>
+    <string name="launcher_label_clock">Clock</string>
+    <string name="launcher_label_flashlight">Flashlight</string>
+    <string name="launcher_label_wallet">Wallet</string>
+    <string name="launcher_label_fitness">Fitness</string>
+
+    <!-- Onboarding & account -->
+    <string name="get_started_title">Your privacy, protected</string>
+    <string name="get_started_subtitle">Keep sensitive photos, videos, and documents secure on your device.</string>
+    <string name="get_started_button">Get started</string>
+    <string name="skip">Skip</string>
+    <string name="create_account">Create account</string>
+    <string name="create_account_subtitle">Set up a secure space for your personal files.</string>
+    <string name="email">Email</string>
+    <string name="email_hint">you@example.com</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login">Log in</string>
+
+    <!-- Recovery dialog -->
+    <string name="dialog_background_recovery">Restore your data?</string>
+    <string name="dialog_background_recovery_subtext">Continue where you left off, or start fresh.</string>
+    <string name="dialog_restore">Not now</string>
+    <string name="dialog_skip">Skip</string>
+    <string name="dialog_create_account">Create account</string>
+
+    <!-- PIN -->
+    <string name="create_your_pin">Create your PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="pin_subtitle">Verify that it is you</string>
+    <string name="createpin_subtitle">You will use this PIN to unlock your vault.</string>
+    <string name="reset_pinsubtitle">Enter a new 4-digit PIN</string>
+    <string name="pin_matched">PIN matches</string>
+    <string name="wrong_pin">Incorrect PIN</string>
+    <string name="view_pin">Show PIN</string>
+    <string name="hide_pin">Hide PIN</string>
+    <string name="continue_text">Continue</string>
+    <string name="pin_error_required">Enter a 4-digit PIN.</string>
+    <string name="pin_error_same_as_current">This is the same as your current PIN. Choose a different 4-digit code so your vault stays protected.</string>
+    <string name="pin_update_button">Update PIN</string>
+
+    <!-- Security question -->
+    <string name="security_question_title">Security question</string>
+    <string name="security_question_reset_title">Edit security question</string>
+    <string name="security_question_subtitle">Used to recover access if you forget your PIN or biometrics fail.</string>
+    <string name="enter_question">Question</string>
+    <string name="enter_question_placeholder">e.g. What is your mother\'s maiden name?</string>
+    <string name="enter_answer">Answer</string>
+    <string name="enter_answer_placeholder">Your answer</string>
+    <string name="write_hint_optional">Hint (optional)</string>
+    <string name="write_hint_placeholder">e.g. First letter only</string>
+    <string name="set_button">Save</string>
+    <string name="saved_navigate_home">Saved. Returning to home…</string>
+    <string name="please_enter_question_answer">Enter both a question and an answer.</string>
+    <string name="forget_your_pin">Forgot your PIN?</string>
+    <string name="your_question">Your question</string>
+    <string name="answer_placeholder">Answer</string>
+    <string name="hint_prefix">Hint: %s</string>
+    <string name="wrong_answer_try_again">Incorrect answer. Please try again.</string>
+    <string name="submit">Submit</string>
+    <string name="exit_dialog_title">Leaving Vaultify?</string>
+    <string name="exit_dialog_message">Your vault stays securely locked. You can come back any time.</string>
+    <string name="exit_dialog_no">Stay</string>
+    <string name="exit_dialog_yes">Exit app</string>
+    <string name="cd_exit_dialog_lock">Vault locked shield</string>
+    <string name="reset_pin">Reset PIN</string>
+
+    <!-- Biometric -->
+    <string name="enable_fingerprint_login">Enable fingerprint unlock</string>
+    <string name="fingerprint_login">Fingerprint unlock</string>
+    <string name="authenticate_that_its_you">Verify your identity</string>
+    <string name="authenticate_using_fingerprint">Use fingerprint instead of your PIN</string>
+    <string name="place_finger_on_sensor">Touch the fingerprint sensor to continue.</string>
+    <string name="please_place_finger">Place your finger on the sensor.</string>
+    <string name="hold_verifying">Verifying…</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again.</string>
+    <string name="too_many_attempts">Too many attempts. Try again in 15 minutes.</string>
+    <string name="recognized_and_proceeding">Verified. Continuing…</string>
+    <string name="no_fingerprint_sensor">No fingerprint hardware was found on this device.</string>
+    <string name="verified_and_enabled">Verified and enabled</string>
+    <string name="fingerprint_vault_access">You can use fingerprint to unlock the vault from the PIN screen.</string>
+    <string name="answer_security_question_instead">Use security question instead</string>
+    <string name="choose_question">Choose a question</string>
+    <string name="select_question_placeholder">Select a question…</string>
+    <string name="custom_question_option">Write your own question…</string>
+    <string name="enter_your_question">Your question</string>
+
+    <!-- Biometric prompt (system dialog) -->
+    <string name="biometric_prompt_subtitle_short">Touch the sensor to continue.</string>
+    <string name="biometric_setup_none_enrolled">No fingerprints are enrolled. Add one in Settings.</string>
+    <string name="biometric_error_no_hardware">No fingerprint sensor was found on this device.</string>
+    <string name="biometric_error_not_enrolled">No fingerprints are enrolled. Add one in Settings.</string>
+    <string name="action_use_pin">Use PIN</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_try_again">Try again</string>
+
+    <!-- Links & about -->
+    <string name="privacy_policy_url">https://labs.dyideaz.com/apps/policies/vaultify.html</string>
+    <string name="share_app_text">Try Vaultify — private photos, videos, and files on your device. https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="about_app_title">About Vaultify</string>
+    <string name="about_app_tagline">Private vault · On your device</string>
+    <string name="about_app_description">Vaultify is built for people who want sensitive photos, videos, documents, and other files kept in one place—protected by your PIN and optional fingerprint unlock.\n\nYour vault contents stay on this device. We do not operate a cloud copy of your library or read your files for our own purposes.\n\nThe app is free with advertising; limited data may be processed by ad and analytics services as described in the Privacy Policy.</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_close">Close</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">ADD ITEMS TO YOUR VAULT</string>
+    <string name="home_count_empty">None yet</string>
+    <string name="home_count_one">1 item</string>
+    <string name="home_count_many">%1$d items</string>
+    <string name="vault_title_images">Images</string>
+    <string name="vault_title_videos">Videos</string>
+    <string name="vault_title_files">Documents</string>
+    <string name="vault_title_audio">Audio</string>
+    <string name="vault_empty_images">No images in the vault yet.</string>
+    <string name="vault_empty_videos">No videos in the vault yet.</string>
+    <string name="vault_empty_files">No documents in the vault yet.</string>
+    <string name="vault_empty_audio">No audio in the vault yet.</string>
+    <string name="vault_add_images">Add images</string>
+    <string name="vault_add_videos">Add videos</string>
+    <string name="vault_add_files">Add files</string>
+    <string name="vault_add_audio">Add audio</string>
+
+    <!-- Settings drawer -->
+    <string name="settings_title">App settings</string>
+    <string name="settings_section_security">Security</string>
+    <string name="settings_section_store">Google Play</string>
+    <string name="settings_section_legal">Legal &amp; information</string>
+    <string name="settings_change_pin">Change vault PIN</string>
+    <string name="settings_fingerprint">Fingerprint unlock</string>
+    <string name="settings_security_qa">Security question &amp; recovery</string>
+    <string name="settings_check_update">Check for updates</string>
+    <string name="settings_rate_review">Rate &amp; review</string>
+    <string name="settings_share">Invite others</string>
+    <string name="share_chooser_title">Share via</string>
+    <string name="settings_about">About Vaultify</string>
+    <string name="settings_privacy_policy">Privacy policy</string>
+    <string name="toast_play_store_opening">Opening Google Play…</string>
+    <string name="toast_play_store_unavailable">Could not open Google Play. Please try again later.</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_app_icon">App icon</string>
+
+    <!-- Vault actions -->
+    <string name="action_select_all">Select all</string>
+    <string name="action_unlock_selected">Unlock (%1$d)</string>
+    <string name="action_delete_selected">Delete (%1$d)</string>
+    <string name="delete_confirm_title">Delete permanently?</string>
+    <string name="delete_confirm_message_one">This item will be permanently deleted from your vault. This action cannot be undone and the file cannot be restored.</string>
+    <string name="delete_confirm_message_many">%1$d items will be permanently deleted from your vault. This action cannot be undone and the files cannot be restored.</string>
+    <string name="delete_confirm_button">Delete</string>
+    <string name="toast_items_deleted_one">1 item was permanently deleted.</string>
+    <string name="toast_items_deleted_many">%1$d items were permanently deleted.</string>
+    <string name="unlock_all_confirm_title">Unlock everything?</string>
+    <string name="unlock_all_confirm_message">All %1$d items will be restored to your gallery or files and removed from the vault.</string>
+    <string name="unlock_all_confirm_button">Unlock all</string>
+    <string name="delete_all_confirm_title">Delete everything?</string>
+    <string name="delete_all_confirm_message">All items will be permanently deleted and cannot be recovered from the gallery</string>
+    <string name="delete_all_confirm_button">Delete all</string>
+    <string name="default_file_item_name">File</string>
+    <string name="default_audio_item_name">Audio</string>
+
+    <!-- OCR / scan -->
+    <string name="ocr_sheet_title">Extract text from images</string>
+    <string name="label_gallery">Gallery</string>
+    <string name="label_camera">Camera</string>
+    <string name="extract_text_title">Extract text</string>
+    <string name="ocr_preview_title">Image preview</string>
+    <string name="loading_generic">Loading…</string>
+    <string name="crop_screen_title">Crop</string>
+    <string name="dialog_export_pdf_title">Export as PDF</string>
+    <string name="extracted_text_screen_title">Extracted text</string>
+    <string name="hint_field_label">Hint</string>
+    <string name="field_optional_suffix"> (optional)</string>
+    <string name="action_update">Update</string>
+    <string name="placeholder_file_name">File name</string>
+    <string name="file_extension_pdf">.pdf</string>
+
+    <!-- Disguise -->
+    <string name="disguise_change_title">Change app icon</string>
+    <string name="disguise_confirm_message">Replace the home screen icon and app name with a disguise?</string>
+    <string name="disguise_apply">Apply disguise</string>
+    <string name="disguise_choose_subtitle">CUSTOMIZE APP ICON</string>
+    <string name="disguise_selected">Selected</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_back">Back</string>
+    <string name="cd_unlock_all">Unlock all</string>
+    <string name="cd_delete_all">Delete all</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_scan_document">Scan document</string>
+    <string name="cd_exit_selection_mode">Exit selection</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_video">Video</string>
+    <string name="cd_audio">Audio</string>
+    <string name="cd_pdf_document">PDF document</string>
+    <string name="cd_word_document">Word document</string>
+    <string name="cd_crop">Crop</string>
+    <string name="cd_done">Done</string>
+    <string name="cd_clear">Clear</string>
+    <string name="cd_fingerprint">Fingerprint</string>
+    <string name="cd_delete_digit">Delete digit</string>
+    <string name="cd_item_selected">Selected</string>
+    <string name="cd_item_not_selected">Not selected</string>
+    <string name="cd_app_logo">Vaultify logo</string>
+
+    <!-- Clipboard (internal label) -->
+    <string name="clipboard_label_extracted">Extracted text</string>
+
+    <!-- Common actions -->
+    <string name="action_save">Save</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_unlock">Unlock</string>
+    <string name="action_delete">Delete</string>
+    <string name="disguise_screen_title">Disguise Icon</string>
+
+    <!-- Branded toasts -->
+    <string name="toast_fingerprint_unlock_enabled">Fingerprint unlock is on. You can use it on the PIN screen.</string>
+    <string name="toast_fingerprint_unlock_disabled">Fingerprint unlock is off. Use your PIN to open the vault.</string>
+    <string name="toast_pin_reset_success">PIN was reset successfully.</string>
+    <string name="toast_print_pdf_opening">Opening the print dialog so you can save as PDF…</string>
+    <string name="toast_enter_file_name">Please enter a file name.</string>
+    <string name="toast_ocr_preparing_image">Please wait — preparing your image…</string>
+    <string name="toast_ocr_saving_pdf">Saving PDF to your vault…</string>
+    <string name="toast_ocr_pdf_saved">PDF \"%1$s\" saved to your Docs vault.</string>
+    <string name="toast_ocr_pdf_save_failed">Couldn\'t save the PDF. Please try again.</string>
+
+    <!-- File preview screen -->
+    <string name="file_preview_title">Preview</string>
+    <string name="file_preview_loading">Loading preview…</string>
+    <string name="file_preview_page_label">Page %1$d of %2$d</string>
+    <string name="file_preview_unsupported_title">Preview not available</string>
+    <string name="file_preview_unsupported_message">This file type can\'t be previewed inside the vault. Open it with another app if you need to view it.</string>
+    <string name="file_preview_open_external">Open with another app</string>
+    <string name="file_preview_text_truncated">Showing first %1$d KB of this file.</string>
+    <string name="file_preview_pdf_error">Couldn\'t open this PDF. The file may be corrupted.</string>
+    <string name="file_preview_text_error">Couldn\'t read this file as text.</string>
+    <string name="file_preview_file_info_size">Size: %1$s</string>
+    <string name="file_preview_file_info_type">Type: %1$s</string>
+    <string name="file_preview_no_external_app">No app on this device can open this file.</string>
+    <string name="file_preview_opening_external">Opening in another app…</string>
+    <string name="toast_text_copied">Copied to clipboard.</string>
+    <string name="toast_vault_copy_kept_in_gallery">Saved to your vault. The original is still in your gallery or files because it couldn\'t be removed.</string>
+    <string name="toast_camera_permission_required">Camera permission is needed to take photos for scanning.</string>
+    <string name="toast_unhide_requires_android10">Restoring items to your gallery or files requires Android 10 or newer.</string>
+    <string name="toast_restore_location_default">your library (default folder)</string>
+    <string name="toast_item_restored">%1$s was restored to %2$s.</string>
+
+    <!-- Notes / Diary -->
+    <string name="vault_title_notes">Notes &amp; Diary</string>
+    <string name="home_count_notes_empty">No notes yet</string>
+    <string name="home_count_notes_one">1 note</string>
+    <string name="home_count_notes_many">%1$d notes</string>
+    <string name="notes_screen_title">Notes &amp; Diary</string>
+    <string name="notes_search_placeholder">Search your notes</string>
+    <string name="notes_empty_title">Your private diary</string>
+    <string name="notes_empty_message">Jot down thoughts, passwords, or journal entries all securely protected by your PIN</string>
+    <string name="notes_empty_cta">Create first note</string>
+    <string name="notes_no_results">No notes match \u201C%1$s\u201D.</string>
+    <string name="notes_fab_new">New note</string>
+    <string name="notes_updated_just_now">Just now</string>
+    <string name="notes_updated_minutes">%1$d min ago</string>
+    <string name="notes_updated_hours">%1$d h ago</string>
+    <string name="notes_updated_days">%1$d d ago</string>
+    <string name="notes_pinned_label">Pinned</string>
+
+    <string name="note_edit_new_title">New note</string>
+    <string name="note_edit_edit_title">Edit note</string>
+    <string name="note_edit_title_placeholder">Title</string>
+    <string name="note_edit_body_placeholder">Start writing…</string>
+    <string name="note_edit_color_label">Card color</string>
+    <string name="note_edit_color_default">Default</string>
+    <string name="note_edit_toggle_pin">Pin to top</string>
+    <string name="note_edit_delete">Delete note</string>
+    <string name="note_edit_delete_confirm_title">Delete this note?</string>
+    <string name="note_edit_delete_confirm_message">The note will be permanently removed from your vault. This cannot be undone.</string>
+    <string name="note_edit_discard_title">Discard this note?</string>
+    <string name="note_edit_discard_message">You haven\'t written anything. The note will not be saved.</string>
+    <string name="note_edit_discard_confirm">Discard</string>
+    <string name="note_edit_updated_at">Updated %1$s</string>
+    <string name="note_edit_created_at">Created %1$s</string>
+    <string name="note_edit_char_count">%1$d characters</string>
+    <string name="toast_note_saved">Note saved.</string>
+    <string name="toast_note_deleted">Note deleted.</string>
+    <string name="toast_note_discarded">Empty note discarded.</string>
+    <string name="toast_note_pinned">Pinned to top.</string>
+    <string name="toast_note_unpinned">Unpinned.</string>
+    <string name="toast_all_notes_deleted">All notes deleted successfully</string>
+</resources>

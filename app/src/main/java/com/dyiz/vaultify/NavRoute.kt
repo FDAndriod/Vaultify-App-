@@ -1,0 +1,31 @@
+package com.dyiz.vaultify
+
+object NavRoutes{
+    const val SPLASH = "splash"
+    const val DUMY_ROUTE = "dumy_route"
+    const val PIN_CREATION_SCREEN = "pin_creation_screen"
+    const val PIN_ENTER_SCREEN = "pin_enter_screen"
+
+    const val SECURITY_QUESTION_SCREEN = "security_question_screen"
+    const val SECURITY_QUESTION_RECOVERY = "security_question_recovery"
+    const val RESET_PIN_SCREEN = "reset_pin_screen"
+    const val HOME = "home"
+    const val FINGERPRINT_SETUP_SCREEN = "fingerprint_setup_screen"
+    const val FINGERPRINT_LOGIN_SCREEN = "fingerprint_login_screen"
+    const val IMAGES_SCREEN = "images_screen"
+    const val VIDEOS_SCREEN = "videos_screen"
+    const val FILES_SCREEN = "files_screen"
+    const val AUDIOS_SCREEN = "audios_screen"
+    const val DISGUISE_ICON_SCREEN = "disguise_icon_screen"
+    const val DOCS_SCREEN = "docs_screen"
+    const val EXTRACT_IMAGE_SCREEN = "extract_image_screen"
+    const val CROP_IMAGE_SCREEN = "crop_image_screen"
+    const val EXTRACTED_TEXT_SCREEN = "extracted_text_screen"
+    const val IMAGE_VIEWER_SCREEN = "image_viewer_screen"
+    const val VIDEO_PLAYING_SCREEN = "video_playing_screen"
+    const val AUDIO_PLAYING_SCREEN = "audio_playing_screen"
+    const val FILE_PREVIEW_SCREEN = "file_preview_screen"
+    const val NOTES_LIST_SCREEN = "notes_list_screen"
+    const val NOTE_EDIT_SCREEN = "note_edit_screen"
+    const val NOTE_EDIT_ARG_ID = "noteId"
+}

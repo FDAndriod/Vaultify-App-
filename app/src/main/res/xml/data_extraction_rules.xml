@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="vaultify_database" />
+        <exclude domain="sharedpref" path="app_prefs.xml" />
+        <exclude domain="sharedpref" path="disguise_prefs.xml" />
+        <exclude domain="sharedpref" path="vaultify_ad_prefs.xml" />
+    </cloud-backup>
+</data-extraction-rules>

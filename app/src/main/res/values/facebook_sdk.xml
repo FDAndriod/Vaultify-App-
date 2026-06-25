@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace with your Meta app ID from developers.facebook.com (format: fb1234567890). Required for Audience Network mediation. -->
+    <string name="facebook_app_id" translatable="false">fbREPLACE_WITH_META_APP_ID</string>
+    <!-- Meta client token from App Settings > Advanced. -->
+    <string name="facebook_client_token" translatable="false">REPLACE_WITH_META_CLIENT_TOKEN</string>
+</resources>

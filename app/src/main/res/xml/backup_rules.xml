@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="vaultify_database" />
+    <exclude domain="sharedpref" path="app_prefs.xml" />
+    <exclude domain="sharedpref" path="disguise_prefs.xml" />
+    <exclude domain="sharedpref" path="vaultify_ad_prefs.xml" />
+</full-backup-content>
