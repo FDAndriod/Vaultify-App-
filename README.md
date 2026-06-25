@@ -12,6 +12,7 @@ A secure Android vault app to hide and protect your private photos, videos, docu
 - **Media organization** – Browse vault content by type: Images, Videos, Audios, Files, and Docs
 - **Image tools** – Crop images, extract text from images, and view images in a gallery-style viewer
 - **Video & audio playback** – Play videos and audio files directly inside the app
+- **Pdf Preview** - Open PDF Preview In Vaultify App
 - **Modern UI** – Built with Jetpack Compose and Material 3, with Lottie animations and a polished theme
 
 ## Tech Stack
@@ -35,3 +36,17 @@ A secure Android vault app to hide and protect your private photos, videos, docu
 1. Clone the repository:
 2. Open the project in Android Studio (Hedgehog or later recommended).
 3. Sync Gradle and run on a device or emulator.
+
+
+## Screenshots
+
+![CreatePinScreen](screenshots/createpinscreen.PNG)
+![SecurityQuestionScreen](screenshots/securityquestion.PNG)
+![HomeScreen](screenshots/homescreen.PNG)
+![ImageFolder](screenshots/ImagesFolder.PNG)
+![DocumentFolderScreen](screenshots/documentfolder.PNG)
+![PdfPreviewScreen](screenshots/pdfdocfilepreview.PNG)
+![SettingsScreen](screenshots/settingscreen.PNG)
+![DairyScreen](screenshots/notedairy.PNG)
+![DisguiseScreen](screenshots/disguisescreen.PNG)
+
